@@ -6,9 +6,9 @@ int main() {
     char op;
 
     
-    if (scanf("%lf %c %lf", &a, &op, &b) != 3) {
+    if (scanf("%lf %c %lf", &a, &op, &b) != 3) { // Intentar leer la entrada
         printf("Entrada invalida.\n");
-        return 1; 
+        return 1;  // Código de salida 1
     }
 
     switch (op) {
@@ -30,8 +30,8 @@ int main() {
             break;
         default:
             printf("Entrada invalida.\n");
-            return 1; 
+            return 1;  // Operador no válido
     }
 
-    return 0; 
+    return 0; // Ejecución correcta
 }

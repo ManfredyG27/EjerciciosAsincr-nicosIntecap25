@@ -7,15 +7,15 @@ int main() {
     printf("Ingresa numeros enteros (0 para salir):\n");
 
     
-    while (1) {
+    while (1) {    // Ciclo infinito, se rompe con 0 o entrada inválida
         if (scanf("%d", &n) != 1) {
             printf("Entrada invalida.\n");
-            return 1; 
+            return 1;  // Código de salida 1
         }
 
         if (n == 0) {
             printf("Fin.\n");
-            break; 
+            break;  // Termina el ciclo
         }
 
         if (n % 2 == 0) {
@@ -25,5 +25,5 @@ int main() {
         }
     }
 
-    return 0;
+    return 0; // Código de salida normal
 }
