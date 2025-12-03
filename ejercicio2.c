@@ -4,7 +4,7 @@
 int main() {
     int n;
 
-    printf("Ingresa enteros (0 para salir):\n");
+    printf("Ingresa numeros enteros (0 para salir):\n");
 
     
     while (1) {
@@ -25,5 +25,5 @@ int main() {
         }
     }
 
-    return 0; 
+    return 0;
 }

@@ -37,7 +37,7 @@ int main() {
         if (valores[i] > max) max = valores[i];
     }
 
-    printf("Promedio: %.4f | Min: %.4f | Max: %.4f\n", suma / N, min, max);
+    printf("Promedio: %.3f | Min: %.3f | Max: %.3f\n", suma / N, min, max);
 
     free(valores);
     return 0;

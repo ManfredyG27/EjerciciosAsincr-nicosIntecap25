@@ -5,7 +5,7 @@ int main() {
     int a, b;
 
     if (scanf("%d %d", &a, &b) != 2) {
-        printf("Entrada invalida.\n");
+        printf("La Entrada invalida.\n");
         return 1; // Código de salida 1
     }
     

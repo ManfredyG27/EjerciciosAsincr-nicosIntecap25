@@ -13,19 +13,19 @@ int main() {
 
     switch (op) {
         case '+':
-            printf("= %.6f\n", a + b);
+            printf("= %.5f\n", a + b);
             break;
         case '-':
-            printf("= %.6f\n", a - b);
+            printf("= %.5f\n", a - b);
             break;
         case '*':
-            printf("= %.6f\n", a * b);
+            printf("= %.5f\n", a * b);
             break;
         case '/':
             if (b == 0) {
                 printf("Error: division por cero.\n");
             } else {
-                printf("= %.6f\n", a / b);
+                printf("= %.5f\n", a / b);
             }
             break;
         default:
